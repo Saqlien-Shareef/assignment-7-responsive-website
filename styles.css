@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+.w1 {
+    padding: 20px 30px 20px 30px;
+    height: 33.33vh;
+    background-color: rgba(252,252,252,255);
+}
+.w2 {
+    padding: 10px 30px 10px 30px;
+    height: 33.33vh;
+    background-color:rgba(84,174,174,255);
+    color: white;
+}
+.w3 {
+    color: white;
+    background-color: rgba(105,185,182,255);
+    padding: 10px 30px 10px 30px;
+    height: 33.33vh;
+}
+button:hover {
+    background-color: rgb(121, 201, 164) ;
+    color: black;
+}
+
+
+@media screen and (min-width:320px) {
+    .jc {
+        color:rgba(127,173,169,255);
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .l2 {
+        color: rgba(205,216,153,255);
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    .l3 {
+        color:#202020 ;
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+    .l4 {
+        color:#202020 ;
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+    .ms {
+        font-size: 2rem;
+        font-weight: 600;
+        
+    }
+    span {
+        font-size: 1.7rem;
+        vertical-align: middle;
+    }
+    .cost {
+        font-size: 1rem;
+        margin-top: 17px;
+    }
+    .s3 {
+        font-size: 1.2rem;
+        margin-top: 17px;
+    }
+    button {
+        height: 50px;
+        width: 300px;
+        background-color: rgba(195,218,84,255);
+        color: white;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        margin-top: 30px;
+        box-shadow: 4px 6px 12px -1px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 4px 6px 12px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 6px 12px -1px rgba(0,0,0,0.75);;
+        border: 0;
+        
+    }
+    .wu {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    p {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+}
+@media  screen and (min-width:768px) {
+    .w1 {
+        padding: 70px;
+        height: 40vh;
+    }
+    .w2 {
+        padding: 70px;
+        height: 40vh;
+    }
+    .w3 {
+        padding: 70px;
+        height: 40vh;
+    }
+    
+    .jc {
+        color:rgba(127,173,169,255);
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+    .l2 {
+        color: rgba(205,216,153,255);
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .l3 {
+        color:#202020 ;
+        font-size: 1.7rem;
+        margin-top: 20px;
+    }
+    .l4 {
+        color:#202020 ;
+        font-size: 1.7rem;
+        margin-top: 10px;
+    }
+    .ms {
+        font-size: 3.2rem;
+        font-weight: 600;
+        
+    }
+    span {
+        font-size: 2.5rem;
+        vertical-align: middle;
+    }
+    .cost {
+        font-size: 1.7rem;
+        margin-top: 17px;
+    }
+    .s3 {
+        font-size: 2rem;
+        margin-top: 17px;
+    }
+    button {
+        height: 60px;
+        width: 300px;
+        background-color: rgba(195,218,84,255);
+        color: white;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        margin-top: 40px;
+        box-shadow: 4px 6px 12px -1px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 4px 6px 12px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 6px 12px -1px rgba(0,0,0,0.75);;
+        border: 0;
+        border: none;
+        
+    }
+    .wu {
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+    p {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    
+}
+@media only screen and (min-width:1024px) {
+    
+    .w1 {
+        padding: 60px;
+        height: 50vh;
+        
+    }
+    .w2 {
+        padding: 60px;
+        height: 50vh;
+        width: 50%;
+        float:left;
+    }
+    
+    .w3 {
+        padding:60px;
+        width: 50%;
+        float: right;
+        height: 50vh;
+    }
+    .jc {
+        color:rgba(127,173,169,255);
+        font-size: 3rem;
+        
+    }
+    .l2 {
+        color: rgba(205,216,153,255);
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .l3 {
+        color:#202020 ;
+        font-size: 1.6rem;
+        margin-top: 15px;
+    }
+    .l4 {
+        color:#202020 ;
+        font-size: 1.6rem;
+        
+    }
+    .ms {
+        font-size: 2.5rem;
+        font-weight: 600;
+        
+    }
+    span {
+        font-size: 2.5rem;
+        vertical-align: middle;
+    }
+    .cost {
+        font-size: 1.4rem;
+        margin-top: 10px;
+        
+    }
+    .s3 {
+        font-size: 1.7rem;
+        margin-top: 10px;
+    }
+    button {
+        height: 60px;
+        width: 400px;
+        background-color: rgba(195,218,84,255);
+        color: white;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        margin-top: 30px;
+        box-shadow: 4px 6px 12px -1px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 4px 6px 12px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 6px 12px -1px rgba(0,0,0,0.75);;
+        border: 0;
+        border:none
+        
+    }
+    .wu {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    p {
+        font-size: 1.6rem;
+        margin-top: 10px;
+    }
+}
+
